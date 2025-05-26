@@ -1,5 +1,0 @@
-com\example\employee_crud\EmployeeCrudApplication.class
-com\example\employee_crud\model\Employee.class
-com\example\employee_crud\service\EmployeeService.class
-com\example\employee_crud\controller\EmployeeController.class
-com\example\employee_crud\repository\EmployeeRepository.class
