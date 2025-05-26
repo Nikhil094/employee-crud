@@ -41,7 +41,7 @@ public ResponseEntity<String> update(@PathVariable int id, @RequestBody Employee
     if (existing == null) {
         return ResponseEntity.notFound().build();
     }
-    emp.setId(id);  // Ensure the ID in the employee object matches path variable
+    emp.setId(id);  
     service.update(emp);
     return ResponseEntity.ok("Employee updated successfully");
 }
